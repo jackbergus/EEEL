@@ -2,8 +2,8 @@
 // Date: 2014.10.26
 #include "gflags/gflags.h"
 #include "glog/logging.h"
-#include "context.hpp"
-#include "ee_engine.hpp"
+#include "../src/context.hpp"
+#include "../src/ee_engine.hpp"
 
 #include <thread>
 #include <vector>

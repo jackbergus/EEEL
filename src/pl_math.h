@@ -59,6 +59,7 @@ using namespace std;
 
 // Define 'real' constants.
 // NB: the max is not really the max, but it's large enough for most applications.
+#define USEFLOAT
 #if defined(USEDOUBLE)
 //#define real double
 typedef double real;

@@ -2,11 +2,11 @@
 // Date: 2014.10.26
 #include "gflags/gflags.h"
 #include "glog/logging.h"
-#include "context.hpp"
-#include "ee_engine.hpp"
-#include "analyst.hpp"
-#include "solver.hpp"
-#include "blob.hpp"
+#include "../src/context.hpp"
+#include "../src/ee_engine.hpp"
+#include "../src/analyst.hpp"
+#include "../src/solver.hpp"
+#include "../src/blob.hpp"
 
 #include <thread>
 #include <vector>

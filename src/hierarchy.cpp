@@ -130,7 +130,7 @@ void Hierarchy::ExpandPathFromCommonAncestors(const int entity_idx,
 void Hierarchy::FindCommonAncestors(int entity_from, int entity_to,
     set<int>& common_ancestors) {
   // for speedup
-  if (entity_ancestor_weights_[entity_from]->size() 
+  if (entity_ancestor_weights_[entity_from] != nullptr && entity_ancestor_weights_[entity_to] != nullptr && entity_ancestor_weights_[entity_from]->size()
       < entity_ancestor_weights_[entity_to]->size()) {
     int tmp = entity_to;
     entity_to = entity_from;
