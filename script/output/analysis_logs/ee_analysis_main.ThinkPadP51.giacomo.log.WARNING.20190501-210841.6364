@@ -1,0 +1,4 @@
+Log file created at: 2019/05/01 21:08:41
+Running on machine: ThinkPadP51
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+F0501 21:08:41.481393  6364 solver.cpp:252] fail to open:./output/solver_parameter_30

@@ -1,0 +1,15 @@
+Log file created at: 2019/05/01 21:08:41
+Running on machine: ThinkPadP51
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0501 21:08:41.467936  6364 ee_engine.cpp:75] number of category: 257
+I0501 21:08:41.468608  6364 ee_engine.cpp:81] number of entity: 8499
+I0501 21:08:41.469020  6364 ee_engine.cpp:138] Reading /media/giacomo/Data/Progetti/Alignment/EEEL/data/apple/entity2category.txt
+I0501 21:08:41.476227  6364 ee_engine.cpp:94] Reading hierarchy_id.txt
+I0501 21:08:41.476462  6364 ee_engine.cpp:112] Reading level.txt
+I0501 21:08:41.476868  6364 ee_engine.cpp:253] Reading /media/giacomo/Data/Progetti/Alignment/EEEL/data/apple/entity2ancestor.txt
+I0501 21:08:41.476984  6364 ee_engine.cpp:183] Reading /media/giacomo/Data/Progetti/Alignment/EEEL/data/apple/pair.txt
+I0501 21:08:41.481191  6364 ee_engine.cpp:211] number of training data: 12706
+I0501 21:08:41.481258  6364 ee_engine.cpp:133] Data reading done.
+I0501 21:08:41.481266  6364 solver.cpp:202] Restoring from ./output iter=30
+I0501 21:08:41.481287  6364 solver.cpp:248] Restoring from ./output/solver_parameter_30
+F0501 21:08:41.481393  6364 solver.cpp:252] fail to open:./output/solver_parameter_30

@@ -1,0 +1,4 @@
+Log file created at: 2019/05/01 21:08:28
+Running on machine: ThinkPadP51
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+F0501 21:08:28.044726  6345 ee_engine.cpp:63] fail to open:/media/giacomo/Data/Progetti/Alignment/EEEL/../../EEEL/data/apple/categories.txt

@@ -10,7 +10,7 @@ prog_path=${app_dir}/build/tools/${progname}
 ## Data
 #dataset_name=tech
 dataset_name=apple
-dataset_path="${app_dir}/../../EEEL/data/${dataset_name}"
+dataset_path="${app_dir}/data/${dataset_name}"
 
 #resume_iter=880000
 resume_iter=30

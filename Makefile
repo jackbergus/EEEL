@@ -2,7 +2,7 @@
 PROJECT := eeel
 
 # comment it to avoid omp
-OPENMP = 0
+OPENMP = 1
 # comment it to speedup
 #DEBUG = 1
 # comment it if use double
@@ -49,8 +49,7 @@ CXXFLAGS = -g \
            #-std=c++0x -pthread
 
 INCFLAGS = -I/usr/local/include -I./src
-LDFLAGS = -L/usr/local/lib/ \
-          -lgflags \
+LDFLAGS = -lgflags \
           -lglog \
 	  -lpthread
 
