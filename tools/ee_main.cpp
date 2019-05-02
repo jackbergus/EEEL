@@ -61,7 +61,7 @@ DEFINE_int32(num_thread, 1, "Number of thread");
 
 int main(int argc, char *argv[]) {
   FLAGS_alsologtostderr = 1;
-  gflags::ParseCommandLineFlags(&argc, &argv, true);
+  google::ParseCommandLineFlags(&argc, &argv, true);
   google::InitGoogleLogging(argv[0]);
 
   entity::Context::set_phase(entity::Context::TRAIN);

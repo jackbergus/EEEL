@@ -48,10 +48,11 @@ CXXFLAGS = -g \
            -std=c++11
            #-std=c++0x -pthread
 
-INCFLAGS = -I${EEEL_THIRD_PARTY}/include -I./src
-LDFLAGS = -L${EEEL_THIRD_PARTY}/lib \
+INCFLAGS = -I/usr/local/include -I./src
+LDFLAGS = -L/usr/local/lib/ \
           -lgflags \
-          -lglog
+          -lglog \
+	  -lpthread
 
 
 ifeq ($(OPENMP), 1)

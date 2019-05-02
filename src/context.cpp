@@ -5,7 +5,7 @@
 #pragma comment(lib,"gflags.lib")  
 #pragma comment(lib,"gflags_nothreads.lib")	
 
-using namespace gflags;
+using namespace google;
 
 namespace entity {
 
